@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color: lightsalmon;
+            }
+        .container{
+            background-color: #f1c6c6;
+            border: 3px solid rgb(58 84 107);
+            /*we can set margin/padding for top, buttom, left and right like this*/
+            /*padding-top: 19px;
+            padding-bottom: 30px;
+            padding-left: 19px;
+            padding-right: 30px;*/
+
+            /*margin-top: 20px;
+            margin-bottom: 30px;
+            margin-left: 40px;
+            margin-right: 50px;*/
+
+            /*margin = top right buttom left; */
+            /*padding = top right buttom left; */
+
+            /*padding: 23px 56px 6px 78px;  */
+            /*margin: 23px 56px 6px 78px;  */
+
+
+            /* paddong: y(top/bottom) x(left/right); */
+             /* margin: y(top/bottom) x(left/right); */
+            padding: 34px 19px; 
+            margin: 34px 19px;
+            border-radius: 10px;
+            width: 500px;
+            height: 200px;
+            box-sizing: border-box;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container"> 
+        <h3>This is my headding</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum minus doloremque magni quidem. Magnam corrupti consequatur optio molestias explicabo doloribus quibusdam aliquid accusantium, repellat ex incidunt delectus magni id!</p>
+    </div>
+
+    <div class="container"> 
+        <h3>This is my headding</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum minus doloremque magni quidem. Magnam corrupti consequatur optio molestias explicabo doloribus quibusdam aliquid accusantium, repellat ex incidunt delectus magni id!</p>
+    </div>
+
+    <div class="container"> 
+        <h3>This is my headding</h3>
+        <p id="thrid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum harum minus doloremque magni quidem. Magnam corrupti consequatur optio molestias explicabo doloribus quibusdam aliquid accusantium, repellat ex incidunt delectus magni id!</p>
+    </div>
+</body> 
+</html>
+

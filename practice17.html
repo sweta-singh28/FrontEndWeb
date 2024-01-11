@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selectors</title>
+    <style>
+     h1{
+        background-color: red;
+        color: pink;
+        font-size: 20px;
+        text-align: center;
+     } 
+
+  /* if p is contained by any li which is contained by div */ 
+      /* div p li{
+        color: yellow;
+        background-color: green;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     } */
+
+
+/*if p is right inside div then this CSS will be applied */   
+      /* div > p{
+        color: yellow;
+        background-color: green;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     } */
+
+
+/*if p is right after div i.e p is the next sibling of div */
+      /* div + p{
+        color: white;
+        background-color: rgb(192, 83, 83);
+     } */
+    </style>
+</head>
+<body>
+    <h1>This is more on selectors</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>lalalalalalalalal</p></li>
+            </ul>
+          <p>This is a paragraph</p>
+        </div>
+        <p>This is another paragraph</p>
+        </div>
+        <p>This is outermost paragraph</p>
+        </div>
+    </div>
+
+</body>
+</html>
