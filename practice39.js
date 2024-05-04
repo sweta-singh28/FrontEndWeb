@@ -28,8 +28,8 @@
   
  let age = prompt("What is your age?", "");
  if(age>=18){
-    console.log("YOU ARE ALLOWED INSIDE THE CLUB");
+    console.log("YOU ARE ALLOWED INSIDE THE CLUB.");
  }
  else{
-    console.log("YOU ARE NOT ALLOWED INSIDE THE CLUB");
+    console.log("YOU ARE NOT ALLOWED INSIDE THE CLUB.");
  }
